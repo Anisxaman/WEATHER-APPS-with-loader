@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Temperature Hot</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background: url(images/bg-image.jpg) no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .lead{
+            font-weight: bolder;
+            color: white;
+            font-size: 25px;
+        }
+
+        .name{
+            font-size: 40px;
+            color: tomato;
+            font-weight: bold;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input id="inputField" type="text" class="form-control" placeholder="Enter a location for Weather ...">
+                <div class="input-group-append">
+                    <button id="btn" type="button" class="btn btn-danger">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center">
+            <div id="main">
+                <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+                <h1>Dhaka</h1>
+                <h3><span>38.06</span>&deg;C</h3>
+                <h1 class="lead">Clouds</h1>
+
+            </div>
+           
+        </div>
+
+
+<!----------------------------------------- spinner--------------------------------------------->
+
+        <div id="spinner" style="height: 70px; width: 70px;" class="spinner-border text-white m-5  mx-auto" role="status">
+            <span class="visually-hidden"></span>
+          </div>
+    </div>
+
+
+    <div id="error-message"></div>
+
+
+
+<!-- --------------------loader icon-------------------------------- -->
+
+<!-- <div class="loader"></div>
+<div class="outer-box">
+<nav class="social">  
+  <div class="box">
+  <p>Showing a display Loading Icon Until the Page Loads Completely..</p>
+  </div>
+<ul>
+            <li><a target="_blank" href="http://virender-bartwal.blogspot.in/"><i class="fa fa-link fa-3x text-success" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/veerbartwal"><i class="fa fa-twitter fa-3x text-success" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://codepen.io/bartwal"><i class="fa fa-codepen fa-3x text-success" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://in.linkedin.com/in/local-seo-freelancer-delhi"><i class="fa fa-linkedin-square fa-3x text-success" aria-hidden="true"></i></a></li>
+  
+  <li><a target="_blank" href="https://plus.google.com/+Virender-bartwalBlogspotIn"><i class="fa fa-google-plus fa-3x text-success" aria-hidden="true"></i></a></li>
+            </ul>
+</nav>
+  </div> -->
+
+
+
+
+
+
+    <script src="script.js"></script>
+<!-----------------------------------------(js bootstrap)--------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
